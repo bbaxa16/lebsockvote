@@ -1,1 +1,43 @@
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2%;
+
+}
+.reps {
+  width: 25%;
+  height: 45%;
+  text-align: center;
+  margin: 1%;
+  padding: 2%;
+}
+.legpic {
+  margin: 5%;
+  width: 55%;
+  height: 65%;
+  border-radius: 3%;
+}
+li {
+  list-style-type: none;
+}
+li a {
+  color: black;
+}
+li a:hover {
+  text-decoration: none;
+  color: red;
+}
+footer {
+  text-align: center;
+  background-color: darkgrey;
+  color: white;
+}
+small a {
+  color: white;
+}
+small a:hover {
+  text-decoration: none;
+  color: white;
+}
