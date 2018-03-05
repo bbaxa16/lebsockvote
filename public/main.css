@@ -1,12 +1,13 @@
 
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 2%;
-
 }
 .reps {
+  min-width: 225px;
+  min-height: 250px;
   width: 25%;
   height: 45%;
   text-align: center;
@@ -40,4 +41,7 @@ small a {
 small a:hover {
   text-decoration: none;
   color: white;
+}
+.container {
+  text-align: center;
 }
